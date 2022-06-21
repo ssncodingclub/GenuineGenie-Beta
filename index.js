@@ -4,7 +4,8 @@ const path  = require('path');
 const fs = require('fs');
 const Commando = require('discord.js-commando');
 const { Client, Collection, Intents, MessageEmbed } = require('discord.js');
-const { token} = require('./config.json');
+//const { token} = require('./config.json');
+const token = process.env.token;
 
 const ownerId = process.env.owner_ID
 const client = new Commando.Client({

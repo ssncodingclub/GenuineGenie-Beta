@@ -9,9 +9,9 @@ A bot that can do everything?
 + [index.js](index.js) is the brain of the discord bot. This file helps us connect to discord API to send and receive messages. 
 + [schema.txt](schema.txt) contains the schema of collections in mongodb. This file is just for our reference to help us during CRUD operations. 
 + [database folder](database) 
-  + [mongo.js](database/mongo.js) is used to connect to mongodb database. It gets the connection URI from `config.json` *(config.json was not pushed to the repo because it contains sensitive information like bot token)*
+  + [mongo.js](database/mongo.js) is used to connect to mongodb database. It gets the connection URI from `config.json` or `.env` file *(config.json/.env was not pushed to the repo because it contains sensitive information like bot token)*
   + [database/schemas](database/schemas) files are used to get document values from mongodb collection. 
-+ [config.json]() will contain
++ If [config.json]() is used, it will contain
 
 ```js
 {
