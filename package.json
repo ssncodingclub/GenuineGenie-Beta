@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^14.3.2",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.1.8",
+    "path": "^0.12.7",
+    "sqlit": "^2.0.0",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@schemas": "./database/schemas",
+    "@utils": "./utils",
+    "@features": "./features/features",
+    "@commands": "./commands/commands"
+  }
+}

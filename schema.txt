@@ -1,0 +1,47 @@
+SERVER TABLE
+-------------
+server id
+prefix
+welcome channel id
+welcome channel text
+verification channel id
+verification role id
+thanks channel id
+suggestions channel id
+role claim channel id
+role claim emoji role mapping
+mod log channel id
+muted users
+moderator role id
+-----------------------------------------------------
+
+USER TABLE
+----------
+user id
+hourly claim timestamp
+daily claim timestamp
+weekly claim timestamp
+last plunder timestamp
+coin balance
+vault coins
+vault size
+user xp 
+user level
+user hp
+user atk
+user def
+item count
+commands used count
+hunted count
+fished count
+moodle user id
+moodle API key
+
+-----------------------------------------------------
+
+THANKS TABLE
+------------
+server id
+user id
+thanks count
+last thanks timestamp
